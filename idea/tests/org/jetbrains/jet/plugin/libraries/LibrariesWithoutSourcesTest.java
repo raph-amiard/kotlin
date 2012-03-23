@@ -131,4 +131,9 @@ public class LibrariesWithoutSourcesTest extends AbstractLibrariesTest {
         assertNotNull(classFile);
         return classFile;
     }
+
+    @Override
+    protected boolean isWithSources() {
+        return false;
+    }
 }
